@@ -23,7 +23,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string Slug { get; private set; }
 
         public ProductCategory(string name, string description, string picture,
-            string pictureAlt, string pictureTitle, string keyword,
+            string pictureAlt, string pictureTitle, string keywords,
             string metaDescription, string slug)
         {
             Name = name;
@@ -31,7 +31,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
-            Keywords = keyword;
+            Keywords = keywords;
             MetaDescription = metaDescription;
             Slug = slug;
         }

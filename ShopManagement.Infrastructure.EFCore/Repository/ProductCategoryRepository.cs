@@ -53,7 +53,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Description = x.Description,
-                Keyword = x.Keywords,
+                Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
                 Picture = x.Picture,
                 PictureAlt = x.PictureAlt,

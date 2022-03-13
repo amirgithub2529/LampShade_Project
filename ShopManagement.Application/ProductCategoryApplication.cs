@@ -29,7 +29,7 @@ namespace ShopManagement.Application
 
             var productCategory = new ProductCategory(command.Name,command.Description,
                 command.Picture,command.PictureAlt,command.PictureTitle,
-                command.Keyword,command.MetaDescription,slug);
+                command.Keywords,command.MetaDescription,slug);
 
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
@@ -50,7 +50,7 @@ namespace ShopManagement.Application
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description,
                 command.Picture, command.PictureAlt, command.PictureTitle,
-                command.Keyword, command.MetaDescription, slug);
+                command.Keywords, command.MetaDescription, slug);
 
             _productCategoryRepository.SaveChanges();
             return operation.Succedded();

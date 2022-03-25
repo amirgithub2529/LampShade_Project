@@ -24,6 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 
@@ -196,6 +201,14 @@
     <None Include="wwwroot\AdminTheme\images\big\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\small\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\users\Thumbs.db" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+    <None Include="wwwroot\Theme\assets\js\active.js" />
+    <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
+    <None Include="wwwroot\Theme\assets\js\vendors.js" />
   </ItemGroup>
 
 </Project>

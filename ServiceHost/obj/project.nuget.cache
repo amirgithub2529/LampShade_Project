@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wSS6WDoK74GpjI1Knu3Qo3hm/w86fsVf4wL7pinVgYqm8gXhMlMaSyQElverBQauGVTDFFvpFYPL+oj06CCXUg==",
+  "dgSpecHash": "gOwoRLDkB8+qNpDmxK0wrrgYwOX9r72W9tEvJpgTrqfTPX8PsbZ8n4EzaJIfOekG796ttc62LR7LV8Ob85hAAg==",
   "success": true,
   "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,7 @@
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
-    "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

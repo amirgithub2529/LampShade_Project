@@ -193,3 +193,13 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

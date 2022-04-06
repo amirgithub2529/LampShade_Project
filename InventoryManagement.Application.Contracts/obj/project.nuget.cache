@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H5y4d3Zd/mMrhmnBnl+DQ6IQkX5ntf8Aj8+ZjpQ9Li/BIVrdLgtCUrcnRStdn5hnBVZXTnHElPJbw+sBSfJdYw==",
+  "dgSpecHash": "aJ9zYN/RS02doOIJqkQeu3y26Q8xF0izOdNnJvtyynFOa23BDk9d7r0vH/bP+QbODWUdIoZlr4DhdEC7vO5g8Q==",
   "success": true,
   "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [

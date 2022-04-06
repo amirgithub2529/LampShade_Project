@@ -1,9 +1,5 @@
 ﻿using _0_Framework.Application;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventoryManagement.Application.Contracts.Inventory
 {
@@ -16,6 +12,7 @@ namespace InventoryManagement.Application.Contracts.Inventory
         OperationResult Reduce(List<ReduceInventory> command);
         EditInventory GetDetails(long id);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
+        List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
 
     }
 }

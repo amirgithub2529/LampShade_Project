@@ -16,37 +16,23 @@
       enctype="multipart/form-data">
     <div class="modal-body">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
                     <input type="text" class="form-control" asp-for="Name" onchange="makeSlug('Name', 'Slug')">
                     <span asp-validation-for="Name" class="error"></span>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Code" class="control-label">کد</label>
                     <input type="text" class="form-control" asp-for="Code">
                     <span asp-validation-for="Code" class="error"></span>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label asp-for="Stock" class="control-label">تعداد</label>
-                    <input type="text" class="form-control" asp-for="Stock">
-                    <span asp-validation-for="Stock" class="error"></span>
-                </div>
-            </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">قیمت واحد</label>
-                    <input class="form-control" asp-for="UnitPrice">
-                    <span asp-validation-for="UnitPrice" class="error"></span>
-                </div>
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">
 
                     <label asp-for="CategoryId" class="control-label">گروه محصول</label>

@@ -203,3 +203,9 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs

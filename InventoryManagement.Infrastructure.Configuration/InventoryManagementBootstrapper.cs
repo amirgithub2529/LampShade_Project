@@ -1,4 +1,5 @@
-﻿using InventoryManagement.Application;
+﻿
+using InventoryManagement.Application;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infrastructure.EFCore;

@@ -60,10 +60,49 @@ namespace ShopManagement.Application
             return _productRepository.GetDetails(id);
         }
 
+
         public List<ProductViewModel> GetProducts()
         {
             return _productRepository.GetProducts();
         }
+
+
+        public List<ProductViewModel> GetProducts_with_no_inventory()
+        {
+            return _productRepository.GetProducts_with_no_inventory();
+        }
+
+
+
+
+        public OperationResult InventoryCreated(long id)
+        {
+            var operation = new OperationResult();
+            var product = _productRepository.Get(id);
+            if (product == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
+
+            product.InventoryCreated();
+            _productRepository.SaveChanges();
+            return operation.Succedded();
+        }
+
+
+
+
+        public OperationResult InventoryDeleted(long id)
+        {
+            var operation = new OperationResult();
+            var product = _productRepository.Get(id);
+            if (product == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
+
+            product.InventoryDelete();
+            _productRepository.SaveChanges();
+            return operation.Succedded();
+        }
+
+
 
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)

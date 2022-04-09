@@ -19,3 +19,15 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\obj\Debug\
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb

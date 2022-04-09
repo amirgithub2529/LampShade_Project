@@ -17,6 +17,7 @@ namespace ShopManagement.Domain.ProductAgg
         public bool IsDeleted { get; private set; }  //This property added by myself . 
         //public int Stock { get; private set; } //This property added by myself . 
         //public bool IsInStock { get; private set; }
+        public bool HasInventory { get; private set; } //This property added by myself .
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -45,7 +46,8 @@ namespace ShopManagement.Domain.ProductAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
             CategoryId = categoryId;
-            IsDeleted = false;           
+            IsDeleted = false;
+            HasInventory = false;
         }
 
 
@@ -65,6 +67,19 @@ namespace ShopManagement.Domain.ProductAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
             CategoryId = categoryId;
+        }
+
+
+
+        public void InventoryCreated()
+        {
+            HasInventory = true;
+        }
+
+
+        public void InventoryDelete()
+        {
+            HasInventory = false;
         }
 
 

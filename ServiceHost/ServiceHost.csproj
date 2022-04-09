@@ -203,6 +203,7 @@
     <None Include="wwwroot\AdminTheme\images\big\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\small\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\users\Thumbs.db" />
+    <None Include="wwwroot\Theme\assets\css\style1.css" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />

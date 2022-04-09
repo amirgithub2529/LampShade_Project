@@ -39,12 +39,24 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         }
 
 
+
         public List<ProductViewModel> GetProducts()
         {
-            return _context.Products.Select(x => new ProductViewModel 
+            return _context.Products.Where(x => x.HasInventory).Select(x => new ProductViewModel
             {
                 Id = x.Id,
-                Name = x.Name
+                Name = x.Name,
+            }).ToList();
+        }
+
+
+
+        public List<ProductViewModel> GetProducts_with_no_inventory()
+        {
+            return _context.Products.Where(x => !x.HasInventory).Select(x => new ProductViewModel 
+            {
+                Id = x.Id,
+                Name = x.Name,
             }).ToList();
         }
 

@@ -28,7 +28,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
 
         public void OnGet(ColleagueDiscountSearchModel searchModel)
         {
-            Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
+            Products = new SelectList(_productApplication.GetProducts_with_no_inventory(), "Id", "Name");
             ColleagueDiscounts = _colleagueDiscountApplication.Search(searchModel);
         }
 
@@ -37,7 +37,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
         {
             var command = new DefineColleagueDiscount
             {
-                Products = _productApplication.GetProducts()
+                Products = _productApplication.GetProducts_with_no_inventory()
             };
             return Partial("./Create", command);
         }
@@ -51,7 +51,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
         public IActionResult OnGetEdit(long id)
         {
             var colleagueDiscount = _colleagueDiscountApplication.GetDetails(id);
-            colleagueDiscount.Products = _productApplication.GetProducts();
+            colleagueDiscount.Products = _productApplication.GetProducts_with_no_inventory();
             return Partial("Edit", colleagueDiscount);
         }
 

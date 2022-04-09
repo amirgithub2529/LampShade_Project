@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using InventoryManagement.Application.Contracts.Inventory;
@@ -38,7 +39,8 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
         {
             var command = new CreateInventory
             {
-                Products = _productApplication.GetProducts()
+                Products = _productApplication.GetProducts_with_no_inventory()
+
             };
             return Partial("./Create", command);
         }

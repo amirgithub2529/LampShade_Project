@@ -26,3 +26,15 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb

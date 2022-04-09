@@ -2,17 +2,21 @@
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infrastructure.EFCore.Repository;
+using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
 
 namespace InventoryManagement.Application
 {
     public class InventoryApplication : IInventoryApplication
     {
+        private readonly IProductApplication _productApplication;//i add this myself
+
         private readonly IInventoryRepository _inventoryRepository;
 
-        public InventoryApplication(IInventoryRepository inventoryRepository)
+        public InventoryApplication(IInventoryRepository inventoryRepository, IProductApplication productApplicatio)
         {
             _inventoryRepository = inventoryRepository;
+            _productApplication = productApplicatio;
         }
 
         public OperationResult Create(CreateInventory command)
@@ -24,6 +28,7 @@ namespace InventoryManagement.Application
             var inventory = new Inventory(command.ProductId,command.UnitPrice);
             _inventoryRepository.Create(inventory);
             _inventoryRepository.SaveChanges();
+            _productApplication.InventoryCreated(command.ProductId);//i add this myself
             return operation.Succedded();
         }
 

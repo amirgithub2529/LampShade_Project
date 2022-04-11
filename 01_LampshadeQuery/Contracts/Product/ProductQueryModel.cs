@@ -20,6 +20,8 @@ namespace _01_LampshadeQuery.Contracts.Product
         public string Slug { get; set; }
         public bool HasDiscount { get; set; }
         public string DiscountExpireDate { get; set; }
+        public string ShortDescription { get; set; } // I added this property
+        public string CategorySlug { get; set; }
 
     }
 }

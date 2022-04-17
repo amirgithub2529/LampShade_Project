@@ -29,6 +29,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="دکوری\2020-08-09-19-32-01-img3-top-eposi1.jpg" />
+    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-09-121802268.jpg" />
+    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-40-121802289.jpg" />
+    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-46-121802285.jpg" />
+    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-50-121802275.jpg" />
+    <Content Include="دکوری\صندلی-پاف-مدل-1\2020-08-11-11-34-07-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-1\2020-08-11-11-34-17-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-12-40-39-product02.jpg" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-17-11-20-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-17-14-18-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-14-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-38-sample.png" />
+    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-56-sample.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
@@ -160,7 +176,7 @@
     <None Include="wwwroot\AdminTheme\assets\js\npm.js" />
     <None Include="wwwroot\AdminTheme\assets\js\persian-date.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\persian-datepicker.min.js" />
-    <None Include="wwwroot\AdminTheme\assets\js\site111.js" />
+    <None Include="wwwroot\AdminTheme\assets\js\site111234567.js" />
     <None Include="wwwroot\AdminTheme\assets\js\skycons.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\waves.js" />
     <None Include="wwwroot\AdminTheme\assets\js\wow.min.js" />
@@ -212,6 +228,10 @@
     <None Include="wwwroot\Theme\assets\js\active.js" />
     <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
     <None Include="wwwroot\Theme\assets\js\vendors.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ProductPictures\دکوری\" />
   </ItemGroup>
 
 </Project>

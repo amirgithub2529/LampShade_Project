@@ -14,6 +14,6 @@ namespace ShopManagement.Domain.ProductAgg
         List<ProductViewModel> Search(ProductSearchModel searchModel);
         List<ProductViewModel> GetProducts_with_no_inventory();
         List<ProductViewModel> GetProducts();
-
+        Product GetProductWithCategory(long id);
     }
 }

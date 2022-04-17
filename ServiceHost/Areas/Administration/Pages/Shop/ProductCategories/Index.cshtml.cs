@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -44,6 +44,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
+            //if (ModelState.IsValid)
+            //{
+            //    //do some thing ...
+            //} ------------------------------>چون ما از اونبترسیو جی کوئری استفاده میکنیم
+            //  ------------------------------>دیگر برای ولیدیشن فرم از این کد استفاده نمیکنیم
             var result = _productCategoryApplication.Edit(command);
             return new JsonResult(result);
         }

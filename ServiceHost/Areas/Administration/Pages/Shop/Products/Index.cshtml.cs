@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 
+
 namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 {
     public class IndexModel : PageModel
@@ -81,6 +82,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         //    Message = result.Message;
         //    return RedirectToPage("./Index");
         //}
+
+
+        
+
+
 
     }
 }

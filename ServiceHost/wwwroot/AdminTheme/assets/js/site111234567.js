@@ -184,3 +184,48 @@ function handleAjaxCall(method, url, data) {
     }
 }
 
+
+jQuery.validator.addMethod("maxFileSize",
+    function (value, element, params) {
+        var size = element.files[0].size;
+        var maxSize = 3 * 1024 * 1024;
+        if (size > maxSize)
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+
+
+
+jQuery.validator.addMethod("fileExtentionLimit",
+    function (value, element, params) {
+        //var validExtentions = [".jpeg" , ".jpg" , ".png"];
+        var fileType = element.files[0].type;
+        if (fileType == "image/jpeg" || fileType == "image/jpg" || fileType == "image/png")
+            return true;
+        else {
+            return false;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimit");
+
+
+
+//for test
+//$('a.printPage').click(function () {
+//    window.print();
+//    return false;
+//});
+
+//for test
+//$('a.printPage').click(function () {
+//    var divToPrint = document.getElementById('ProductCategoriesDiv');
+//    var newWin = window.open('', 'Print-Window');
+//    newWin.document.open();
+//    newWin.document.write('<html><body onload="window.print()">' + divToPrint.innerHTML + '</body></html>');
+//    newWin.print();
+//   // newWin.document.close();
+//   // setTimeout(function () { newWin.close(); }, 10);
+//});

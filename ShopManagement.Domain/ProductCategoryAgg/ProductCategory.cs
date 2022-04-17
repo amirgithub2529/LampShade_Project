@@ -51,12 +51,17 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         {
             Name = name;
             Description = description;
-            Picture = picture;
+            if(!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Keywords = keyword;
             MetaDescription = metaDescription;
             Slug = slug;
         }
+
+
+
+       
     }
 }

@@ -28,6 +28,7 @@ namespace ServiceHost
             InventoryManagementBootstrapper.Configure(services, connectionString);
 
             services.AddTransient<IFileUploader, FileUploader>();
+            services.AddSingleton<IPasswordHasher,PasswordHasher>();
 
             services.AddRazorPages();
         }

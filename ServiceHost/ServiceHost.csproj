@@ -9,18 +9,22 @@
     <Compile Remove="Areas\Administration\Data\**" />
     <Compile Remove="Areas\Administration\Models\**" />
     <Compile Remove="Areas\Administration\Views\**" />
+    <Compile Remove="wwwroot\Carosel_pic\**" />
     <Content Remove="Areas\Administration\Controllers\**" />
     <Content Remove="Areas\Administration\Data\**" />
     <Content Remove="Areas\Administration\Models\**" />
     <Content Remove="Areas\Administration\Views\**" />
+    <Content Remove="wwwroot\Carosel_pic\**" />
     <EmbeddedResource Remove="Areas\Administration\Controllers\**" />
     <EmbeddedResource Remove="Areas\Administration\Data\**" />
     <EmbeddedResource Remove="Areas\Administration\Models\**" />
     <EmbeddedResource Remove="Areas\Administration\Views\**" />
+    <EmbeddedResource Remove="wwwroot\Carosel_pic\**" />
     <None Remove="Areas\Administration\Controllers\**" />
     <None Remove="Areas\Administration\Data\**" />
     <None Remove="Areas\Administration\Models\**" />
     <None Remove="Areas\Administration\Views\**" />
+    <None Remove="wwwroot\Carosel_pic\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -231,6 +235,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\ProductPictures\slides\" />
     <Folder Include="wwwroot\ProductPictures\دکوری\" />
   </ItemGroup>
 

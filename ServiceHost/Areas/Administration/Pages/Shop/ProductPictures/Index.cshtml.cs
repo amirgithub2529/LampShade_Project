@@ -50,7 +50,8 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         public IActionResult OnGetEdit(long id)
         {
             var productPicture = _productPictureApplication.GetDetails(id);
-            productPicture.Products = _productApplication.GetProducts_with_no_inventory();
+            //productPicture.Products = _productApplication.GetProducts_with_no_inventory();
+            productPicture.Products = _productApplication.GetProducts();
             return Partial("Edit" , productPicture);
         }
 

@@ -28,9 +28,10 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
+            var filePath = _fileUploader.Upload(command.Picture, slug);
 
             var productCategory = new ProductCategory(command.Name,command.Description,
-                "",command.PictureAlt,command.PictureTitle,
+                filePath,command.PictureAlt,command.PictureTitle,
                 command.Keywords,command.MetaDescription,slug);
 
             _productCategoryRepository.Create(productCategory);
@@ -56,9 +57,9 @@ namespace ShopManagement.Application
             //    fileName, command.PictureAlt, command.PictureTitle,
             //    command.Keywords, command.MetaDescription, slug);  ------->این چند خط رو خود مدرس نوشته بود که من اصلاحش کردم به خطوط پایینی
 
-            var fileName = _fileUploader.Upload(command.Picture, slug);
+            var filePath = _fileUploader.Upload(command.Picture, slug);
             productCategory.Edit(command.Name, command.Description,
-                 fileName, command.PictureAlt, command.PictureTitle,
+                 filePath, command.PictureAlt, command.PictureTitle,
                  command.Keywords, command.MetaDescription, slug);
             
             

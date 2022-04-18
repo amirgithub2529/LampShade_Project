@@ -25,11 +25,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 ProductId = x.ProductId,
-                Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle
 
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public ProductPicture GetWithProductAndCategory(long id)
+        {
+            return _context.ProductPictures
+                .Include(x => x.Product)
+                .ThenInclude(x => x.Category)
+                .FirstOrDefault(x => x.Id == id); //به نظرم اگه یه سلکت هم میزدیم که فقط اون 3 و 4 تا فیلد مورد نظر رو بهمون بده از لحاظ عملکرد بهتره
         }
 
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel)

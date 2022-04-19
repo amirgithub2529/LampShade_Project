@@ -1,4 +1,4 @@
-(function ($) {
+﻿(function ($) {
     "use strict";
 
     /*=============================================
@@ -394,13 +394,22 @@
     =            countdown active            =
     =============================================*/
     
+ //   $('[data-countdown]').each(function () {
+	//	var $this = $(this),
+	//	finalDate = $(this).data('countdown');
+	//	$this.countdown(finalDate, function (event) {
+	//		$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown-time">%D</span><span class="single-countdown-text">Days</span></div><div class="single-countdown"><span class="single-countdown-time">%H</span><span class="single-countdown-text">Hours</span></div><div class="single-countdown"><span class="single-countdown-time">%M</span><span class="single-countdown-text">Mins</span></div><div class="single-countdown"><span class="single-countdown-time">%S</span><span class="single-countdown-text">Secs</span></div>'));
+	//	});
+	//});
+
+    //نوشته هایش فارسی شده : روز ساعت دقیقه ثانیه
     $('[data-countdown]').each(function () {
-		var $this = $(this),
-		finalDate = $(this).data('countdown');
-		$this.countdown(finalDate, function (event) {
-			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown-time">%D</span><span class="single-countdown-text">Days</span></div><div class="single-countdown"><span class="single-countdown-time">%H</span><span class="single-countdown-text">Hours</span></div><div class="single-countdown"><span class="single-countdown-time">%M</span><span class="single-countdown-text">Mins</span></div><div class="single-countdown"><span class="single-countdown-time">%S</span><span class="single-countdown-text">Secs</span></div>'));
-		});
-	});
+        var $this = $(this),
+            finalDate = $(this).data('countdown');
+        $this.countdown(finalDate, function (event) {
+            $this.html(event.strftime('<div class="single-countdown"><span class="single-countdown-time">%D</span><span class="single-countdown-text">روز</span></div><div class="single-countdown"><span class="single-countdown-time">%H</span><span class="single-countdown-text">ساعت</span></div><div class="single-countdown"><span class="single-countdown-time">%M</span><span class="single-countdown-text">دقیقه</span></div><div class="single-countdown"><span class="single-countdown-time">%S</span><span class="single-countdown-text">ثانیه</span></div>'));
+        });
+    });
     
     /*=====  End of countdown active  ======*/
     

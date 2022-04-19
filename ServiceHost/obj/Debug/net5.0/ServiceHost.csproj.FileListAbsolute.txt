@@ -221,3 +221,4 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\bin\Debug\net5.0
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\PrintProducts.cshtml.g.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_PrintLayout.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs

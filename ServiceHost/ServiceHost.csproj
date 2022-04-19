@@ -229,7 +229,7 @@
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
     <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
     <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
-    <None Include="wwwroot\Theme\assets\js\active.js" />
+    <None Include="wwwroot\Theme\assets\js\active1.js" />
     <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
     <None Include="wwwroot\Theme\assets\js\vendors.js" />
   </ItemGroup>

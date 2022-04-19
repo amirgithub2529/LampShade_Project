@@ -27,7 +27,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 
         public void OnGet(ProductPictureSearchModel searchModel)
         {
-            Products = new SelectList(_productApplication.GetProducts_with_no_inventory() , "Id", "Name");
+            Products = new SelectList(_productApplication.GetProducts() , "Id", "Name");
             productPictures =  _productPictureApplication.Search(searchModel);
         }
 
@@ -36,7 +36,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         {
             var command = new CreateProductPicture
             {
-                Products = _productApplication.GetProducts_with_no_inventory()
+                Products = _productApplication.GetProducts()
             };
             return Partial("./Create", command);
         }

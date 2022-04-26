@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using _01_LampshadeQuery.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
+using CommnetManagement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
 
 namespace ServiceHost.Pages
 {
@@ -23,11 +20,12 @@ namespace ServiceHost.Pages
 
         public void OnGet(string id)
         {
-            Product = _productQuery.GetDetails(id);
+            Product = _productQuery.GetProductDetails(id);
         }
 
         public IActionResult OnPost(AddComment comment , string productSlug)
         {
+            comment.Type = CommentType.Product;
             var result = _commentApplication.Add(comment);
             return RedirectToPage("./Product" , new { Id = productSlug});
         }

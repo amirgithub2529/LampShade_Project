@@ -31,3 +31,15 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.dll
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

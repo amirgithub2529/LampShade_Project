@@ -33,22 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="دکوری\2020-08-09-19-32-01-img3-top-eposi1.jpg" />
-    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-09-121802268.jpg" />
-    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-40-121802289.jpg" />
-    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-46-121802285.jpg" />
-    <Content Include="دکوری\صندلی-پاف-آرتین-مدل-adt\2020-09-28-13-08-50-121802275.jpg" />
-    <Content Include="دکوری\صندلی-پاف-مدل-1\2020-08-11-11-34-07-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-1\2020-08-11-11-34-17-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-12-40-39-product02.jpg" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-17-11-20-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-10-17-14-18-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-14-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-38-sample.png" />
-    <Content Include="دکوری\صندلی-پاف-مدل-2\2020-08-11-11-33-56-sample.png" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infrastructure.Configuration\CommentManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
@@ -63,6 +49,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Administration\Pages\Blog\ArticleCategories\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Blog\ArticleCategories\Edit.cshtml" />
+    <None Include="Areas\Administration\Pages\Blog\ArticleCategories\Index.cshtml" />
+    <None Include="Areas\Administration\Pages\Blog\Articles\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Blog\Articles\Edit.cshtml" />
+    <None Include="Areas\Administration\Pages\Blog\Articles\Index.cshtml" />
+    <None Include="Pages\Shared\Components\LatestArticles\Default.cshtml" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-inputmask\bootstrap-inputmask.min.js" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.js" />
     <None Include="wwwroot\AdminTheme\assets\bootstrap-wysihtml5\wysihtml5-0.3.0.js" />
@@ -223,7 +216,7 @@
     <None Include="wwwroot\AdminTheme\images\big\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\small\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\users\Thumbs.db" />
-    <None Include="wwwroot\Theme\assets\css\style1.css" />
+    <None Include="wwwroot\Theme\assets\css\style2.css" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />

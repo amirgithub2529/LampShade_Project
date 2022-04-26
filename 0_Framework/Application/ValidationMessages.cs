@@ -11,5 +11,6 @@ namespace _0_Framework.Application
         public const string IsRequired = "این مقدار نمی تواند خالی باشد";
         public const string MaxFileSize = "فایل حجیم تر از حد مجاز است";
         public const string InvalidFileFormat = "فرمت فایل مجاز نیست . فرمت های مجاز : jpeg , jpg , png";
+        public const string MaxLength = "مقدار وارد شده بیش از طول مجاز است";
     }
 }

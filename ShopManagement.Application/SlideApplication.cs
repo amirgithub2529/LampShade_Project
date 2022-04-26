@@ -1,7 +1,6 @@
 ﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
-using System;
 using System.Collections.Generic;
 
 namespace ShopManagement.Application

@@ -1,8 +1,5 @@
-﻿using System;
+﻿using _01_LampshadeQuery.Contracts.Comment;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01_LampshadeQuery.Contracts.Product
 {
@@ -30,24 +27,5 @@ namespace _01_LampshadeQuery.Contracts.Product
         public List<ProductPictureQueryModel> Pictures { get; set; }
         public List<CommentQueryModel> Comments { get; set; }
 
-    }
-
-    public class ProductPictureQueryModel
-    {
-        public long ProductId { get; set; }
-        public string Picture { get; set; }
-        public string PictureAlt { get; set; }
-        public string PictureTitle { get; set; }
-        public bool IsRemoved { get; set; }
-    }
-
-
-    public class CommentQueryModel
-    {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Message { get; set; }
-        public string CommentDate_farsi { get; set; } // i add this
-        public DateTime CommentDate_DateTime { get; set; } // i add this
     }
 }

@@ -1,5 +1,5 @@
 ﻿@model _01_LampshadeQuery.MenuModel
-
+@inject _0_Framework.Application.IAuthHelper AuthHelper
 
 <!--====================  header area ====================-->
 <div class="header-area header-sticky">
@@ -47,6 +47,19 @@
                                 <li>
                                     <a href="contact.html">تماس با ما</a>
                                 </li>
+                                @if (AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="/Account" asp-page-handler="Logout">خروج</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="/Account">ورود یا ثبت نام</a>
+                                    </li>
+                                }
+
                             </ul>
                         </nav>
                     </div>

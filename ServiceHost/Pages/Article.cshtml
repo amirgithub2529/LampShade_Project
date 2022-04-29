@@ -104,28 +104,48 @@
                                         <div class="comment-container">
                                             @foreach (var comment in Model.Article.Comments)
                                             {
-                                                <div class="single-comment" id="comment-@comment.Id">
-                                                    <span class="reply-btn">
-                                                        <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)'>پاسخ</a>
-                                                    </span>
-                                                    <div class="image">
-                                                        <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
-                                                    </div>
-                                                    <div class="content">
-                                                        <h3 class="user">
-                                                            @comment.Name <span class="comment-time">
-                                                                @comment.CreationDate
-                                                            </span>
-                                                        </h3>
-                                                        @if (comment.ParentId > 0)
-                                                        {
+                                                @if (comment.ParentId > 0)
+                                                {
+                                                    <div class="single-comment" id="comment-@comment.Id" style="background-color: #9af7c4">
+                                                        <span class="reply-btn">
+                                                            <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)'>پاسخ</a>
+                                                        </span>
+                                                        <div class="image">
+                                                            <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="user">
+                                                                @comment.Name <span class="comment-time">
+                                                                    @comment.CreationDate
+                                                                </span>
+                                                            </h3>
                                                             <p>
                                                                 <span>در پاسخ به: </span><a href="#comment-@comment.ParentId">@comment.parentName</a>
-                                                            </p>
-                                                        }
-                                                        <p class="comment-text">@comment.Message</p>
+                                                            </p>    
+                                                            <p class="comment-text">@comment.Message</p>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="single-comment" id="comment-@comment.Id">
+                                                        <span class="reply-btn">
+                                                            <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)'>پاسخ</a>
+                                                        </span>
+                                                        <div class="image">
+                                                            <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="user">
+                                                                @comment.Name <span class="comment-time">
+                                                                    @comment.CreationDate
+                                                                </span>
+                                                            </h3>
+                                                            <p class="comment-text">@comment.Message</p>
+                                                        </div>
+                                                    </div>
+                                                }
+
                                             }
                                         </div>
 

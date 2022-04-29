@@ -18,6 +18,8 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             _context = context;
         }
 
+
+
         public EditArticle GetDetails(long id)
         {
             return _context.Articles.Select(x => new EditArticle
@@ -37,10 +39,16 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
+
+
+
         public Article GetWithCategory(long id)
         {
             return _context.Articles.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
         }
+
+
+
 
         public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
         {

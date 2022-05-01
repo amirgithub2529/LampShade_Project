@@ -275,3 +275,4 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Edit.cshtml.g.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Index.cshtml.g.cs
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cshtml.g.cs
+D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs

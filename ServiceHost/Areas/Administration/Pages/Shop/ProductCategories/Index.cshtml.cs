@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
+    //[Authorize(Roles ="1,3")]  --------------------> این روش جالب نیست . به جاش توی استارتاپ باید پالیسی تعریف کنیم
     public class IndexModel : PageModel
     {
         public ProductCategorySearchModel SearchModel;

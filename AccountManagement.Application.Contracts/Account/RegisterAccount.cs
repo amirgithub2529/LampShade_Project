@@ -20,7 +20,7 @@ namespace AccountManagement.Application.Contracts.Account
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Mobile { get; set; }
 
-        [Range(1 , int.MaxValue , ErrorMessage = ValidationMessages.IsRequired)]
+        
         public long RoleId { get; set; }
 
         [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]

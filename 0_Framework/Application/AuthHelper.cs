@@ -31,6 +31,7 @@ namespace _0_Framework.Application
             result.RoleId = long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
             result.Fullname = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value;
             result.Role = Roles.GetRoleBy(result.RoleId);
+            result.ProfilePhoto = claims.FirstOrDefault(x => x.Type == "ProfilePhoto").Value; //----> I add this.
             return result;
         }
 
@@ -88,7 +89,8 @@ namespace _0_Framework.Application
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
                 //new Claim("permissions", permissions),
-                new Claim("Mobile", account.Mobile)
+                new Claim("Mobile", account.Mobile),
+                new Claim("ProfilePhoto" , account.ProfilePhoto)//----> I add this
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

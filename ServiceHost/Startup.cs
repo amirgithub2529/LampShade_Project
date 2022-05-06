@@ -85,11 +85,12 @@ namespace ServiceHost
                 builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             });
 
+
             services.AddRazorPages()
                 .AddRazorPagesOptions(options =>
                 {
-                    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
-                    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea"); //--->This means: in the 'Administration' area , dont let any acount to come in the '/' folder , exept those acounts there are in the 'AdminArea' policy .
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop"); //--->This means: in the 'Administration' area , dont let any acount to come in the '/Shop' folder , exept those acounts there are in the 'Shop' policy .
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
                 });

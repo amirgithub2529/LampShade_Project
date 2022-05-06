@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using _0_Framework.Infrastructure;
+using System.Collections.Generic;
 
 namespace AccountManagement.Application.Contracts.Role
 {
@@ -6,6 +7,8 @@ namespace AccountManagement.Application.Contracts.Role
     {
         public string Name { get; set; }
         public List<int> Permissions { get; set; }
+
+
     }
 
 }

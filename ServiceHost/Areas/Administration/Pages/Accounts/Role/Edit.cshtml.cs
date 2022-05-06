@@ -22,6 +22,8 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
             _exposers = exposers;
         }
 
+
+
         public void OnGet(long id)
         {
             Command = _roleApplication.GetDetails(id);
@@ -46,6 +48,9 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
                 }
             }
         }
+
+
+
 
         public IActionResult OnPost(EditRole command)
         {

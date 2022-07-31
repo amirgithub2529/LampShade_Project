@@ -13,14 +13,16 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IAccountRepository _accountRepository;
         private readonly IAuthHelper _authHelper;
+        private readonly IRoleRepository _roleRepository;
 
         public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher,
-            IFileUploader fileUploader, IAuthHelper authHelper)
+            IFileUploader fileUploader, IAuthHelper authHelper, IRoleRepository roleRepository)
         {
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
             _accountRepository = accountRepository;
             _authHelper = authHelper;
+            _roleRepository = roleRepository;
         }
 
         public OperationResult ChangePassword(ChangePassword command)
@@ -39,6 +41,8 @@ namespace AccountManagement.Application
             return operation.Succedded();
         }
 
+
+
         //public AccountViewModel GetAccountBy(long id)
         //{
         //    var account = _accountRepository.Get(id);
@@ -48,6 +52,8 @@ namespace AccountManagement.Application
         //        Mobile = account.Mobile
         //    };
         //}
+
+
 
         public OperationResult Register(RegisterAccount command)
         {
@@ -65,6 +71,8 @@ namespace AccountManagement.Application
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }
+
+
 
         public OperationResult Edit(EditAccount command)
         {
@@ -84,6 +92,8 @@ namespace AccountManagement.Application
             return operation.Succedded();
         }
 
+
+
         public EditAccount GetDetails(long id)
         {
             return _accountRepository.GetDetails(id);
@@ -97,19 +107,19 @@ namespace AccountManagement.Application
             var operation = new OperationResult();
             var account = _accountRepository.GetBy(command.Username);
             if (account == null)
-                return operation.Failed(ApplicationMessages.WrongUserPass);
+                return operation.Failed(ApplicationMessages.WrongUserPass); //----->When come here means that the Username is incorrect.
 
             var result = _passwordHasher.Check(account.Password, command.Password);
             if (!result.Verified)
-                return operation.Failed(ApplicationMessages.WrongUserPass);
+                return operation.Failed(ApplicationMessages.WrongUserPass); //----->When come here means that the Username is not matches with password(نام کاربری با رمز عبور مطابقت ندارد)
 
-            //var permissions = _roleRepository.Get(account.RoleId)
-            //    .Permissions
-            //    .Select(x => x.Code)
-            //    .ToList();
+            var permissions = _roleRepository.Get(account.RoleId)
+                .Permissions
+                .Select(x => x.Code)
+                .ToList();
 
             var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname
-                , account.Username, account.Mobile , account.ProfilePhoto);
+                , account.Username, permissions, account.Mobile , account.ProfilePhoto);
 
             _authHelper.Signin(authViewModel);
             return operation.Succedded();

@@ -103,6 +103,32 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authorization/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization.Policy/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Authorization": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
         "type": "package",
         "compile": {
@@ -250,6 +276,32 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Abstractions.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+          "Microsoft.AspNetCore.Authorization.Policy": "2.2.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.ResponseCaching.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Routing": "2.2.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.DependencyModel": "2.1.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Razor/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -282,6 +334,34 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Routing/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.ObjectPool": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.2/Microsoft.AspNetCore.Routing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/Microsoft.AspNetCore.Routing.dll": {}
         }
       },
       "Microsoft.AspNetCore.Routing.Abstractions/2.2.0": {
@@ -638,6 +718,25 @@
           }
         }
       },
+      "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.AppContext": "4.1.0",
+          "System.Collections": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -780,6 +879,22 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "2.1.0",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Linq": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
@@ -1307,6 +1422,18 @@
           "lib/SmsIrRestful.dll": {}
         }
       },
+      "System.AppContext/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.6/System.AppContext.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.AppContext.dll": {}
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -1662,6 +1789,32 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Dynamic.Runtime/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit": "4.0.1",
+          "System.Reflection.Emit.ILGeneration": "4.0.1",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Dynamic.Runtime.dll": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -2258,6 +2411,31 @@
         },
         "compile": {
           "ref/netcoreapp1.1/System.Runtime.InteropServices.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "System.Reflection": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Threading": "4.0.11",
+          "runtime.native.System": "4.0.0"
+        },
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.Numerics/4.0.1": {
@@ -3038,6 +3216,46 @@
           "bin/placeholder/AccountMangement.Infrastructure.EFCore.dll": {}
         }
       },
+      "A_Test.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "A_Test.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/A_Test.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A_Test.Configuration.dll": {}
+        }
+      },
+      "A_Test.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/A_Test.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A_Test.Domain.dll": {}
+        }
+      },
+      "A_Test.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "A_Test.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/A_Test.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A_Test.Infrastructure.EFCore.dll": {}
+        }
+      },
       "BlogManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3218,6 +3436,8 @@
           "DiscountManagement.Application": "1.0.0",
           "DiscountManagement.Application.Contracts": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
@@ -3332,6 +3552,20 @@
           "bin/placeholder/InventoryManagement.Infrastructure.EFCore.dll": {}
         }
       },
+      "InventoryManagement.Presentation.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InventoryManagement.Application.Contracts": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Presentation.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Presentation.Api.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3405,6 +3639,20 @@
         },
         "runtime": {
           "bin/placeholder/ShopManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ShopManagement.Presentation.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "01_LampshadeQuery": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Presentation.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Presentation.Api.dll": {}
         }
       }
     }
@@ -3503,6 +3751,32 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/2.2.0": {
+      "sha512": "/L0W8H3jMYWyaeA9gBJqS/tSWBegP9aaTM0mjRhxTttBY9z4RVDRYJ2CwPAmAXIuPr3r1sOw+CS8jFVRGHRezQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization.Policy/2.2.0": {
+      "sha512": "aJCo6niDRKuNg2uS2WMEmhJTooQUGARhV2ENQ2tO5443zVHUo19MSgrgGo9FIrfD+4yKPF8Q+FF33WkWfPbyKw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization.policy/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.xml",
+        "microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
@@ -3654,6 +3928,19 @@
         "microsoft.aspnetcore.mvc.abstractions.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
+      "sha512": "/8sr8ixIUD57UFwUntha9bOwex7/AkZfdk1f9oNJG1Ek7p/uuKVa7fuHmYZpQOf35Oxrt+2Ku4WPwMSbNxOuWg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.core/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.xml",
+        "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.core.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Razor/2.2.0": {
       "sha512": "V54PIyDCFl8COnTp9gezNHpUNHk7F9UnerGeZy3UfbnwYvfzbo+ipqQmSgeoESH8e0JvKhRTyQyZquW2EPtCmg==",
       "type": "package",
@@ -3692,6 +3979,34 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.xml",
         "microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.runtime.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
+      "sha512": "CIHWEKrHzZfFp7t57UXsueiSA/raku56TgRYauV/W1+KAQq6vevz60zjEKaazt3BI76zwMz3B4jGWnCwd8kwQw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.responsecaching.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.xml",
+        "microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.responsecaching.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Routing/2.2.0": {
+      "sha512": "jAhDBy0wryOnMhhZTtT9z63gJbvCzFuLm8yC6pHzuVu9ZD1dzg0ltxIwT4cfwuNkIL/TixdKsm3vpVOpG8euWQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.routing/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.2/Microsoft.AspNetCore.Routing.dll",
+        "lib/netcoreapp2.2/Microsoft.AspNetCore.Routing.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Routing.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Routing.xml",
+        "microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.routing.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Routing.Abstractions/2.2.0": {
@@ -4190,6 +4505,21 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
       ]
     },
+    "Microsoft.DotNet.PlatformAbstractions/2.1.0": {
+      "sha512": "9KPDwvb/hLEVXYruVHVZ8BkebC8j17DmPb56LnqRF74HqSPLjCkrlFUjOtFpQPA2DeADBRTI/e69aCfRBfrhxw==",
+      "type": "package",
+      "path": "microsoft.dotnet.platformabstractions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/Microsoft.DotNet.PlatformAbstractions.dll",
+        "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
+        "microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+        "microsoft.dotnet.platformabstractions.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/5.0.0": {
       "sha512": "QJk6pwN5wCriRdaNXQQxifeDNYephqqDMSXAQFX1nZjHwz/hChD0kDwklX20FexN9IAwQftepMbglcjwTX3l4Q==",
       "type": "package",
@@ -4382,6 +4712,22 @@
         "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyModel/2.1.0": {
+      "sha512": "nS2XKqi+1A1umnYNLX2Fbm/XnzCxs5i+zXVJ3VC6r9t2z0NZr9FLnJN4VQpKigdcWH/iFTbMuX6M6WQJcTjVIg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencymodel/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net451/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll",
+        "microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
     "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
@@ -5416,6 +5762,61 @@
         "smsirrestful.nuspec"
       ]
     },
+    "System.AppContext/4.1.0": {
+      "sha512": "3QjO4jNV7PdKkmQAVp9atA+usVnKRwI3Kx1nMwJ93T0LcQfx7pKAYk0nKz5wn1oP5iqlhZuy6RXOFdhr7rDwow==",
+      "type": "package",
+      "path": "system.appcontext/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.AppContext.dll",
+        "lib/net463/System.AppContext.dll",
+        "lib/netcore50/System.AppContext.dll",
+        "lib/netstandard1.6/System.AppContext.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.AppContext.dll",
+        "ref/net463/System.AppContext.dll",
+        "ref/netstandard/_._",
+        "ref/netstandard1.3/System.AppContext.dll",
+        "ref/netstandard1.3/System.AppContext.xml",
+        "ref/netstandard1.3/de/System.AppContext.xml",
+        "ref/netstandard1.3/es/System.AppContext.xml",
+        "ref/netstandard1.3/fr/System.AppContext.xml",
+        "ref/netstandard1.3/it/System.AppContext.xml",
+        "ref/netstandard1.3/ja/System.AppContext.xml",
+        "ref/netstandard1.3/ko/System.AppContext.xml",
+        "ref/netstandard1.3/ru/System.AppContext.xml",
+        "ref/netstandard1.3/zh-hans/System.AppContext.xml",
+        "ref/netstandard1.3/zh-hant/System.AppContext.xml",
+        "ref/netstandard1.6/System.AppContext.dll",
+        "ref/netstandard1.6/System.AppContext.xml",
+        "ref/netstandard1.6/de/System.AppContext.xml",
+        "ref/netstandard1.6/es/System.AppContext.xml",
+        "ref/netstandard1.6/fr/System.AppContext.xml",
+        "ref/netstandard1.6/it/System.AppContext.xml",
+        "ref/netstandard1.6/ja/System.AppContext.xml",
+        "ref/netstandard1.6/ko/System.AppContext.xml",
+        "ref/netstandard1.6/ru/System.AppContext.xml",
+        "ref/netstandard1.6/zh-hans/System.AppContext.xml",
+        "ref/netstandard1.6/zh-hant/System.AppContext.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.AppContext.dll",
+        "system.appcontext.4.1.0.nupkg.sha512",
+        "system.appcontext.nuspec"
+      ]
+    },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
@@ -6368,6 +6769,77 @@
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Dynamic.Runtime/4.0.11": {
+      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "type": "package",
+      "path": "system.dynamic.runtime/4.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Dynamic.Runtime.dll",
+        "lib/netstandard1.3/System.Dynamic.Runtime.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Dynamic.Runtime.dll",
+        "ref/netcore50/System.Dynamic.Runtime.xml",
+        "ref/netcore50/de/System.Dynamic.Runtime.xml",
+        "ref/netcore50/es/System.Dynamic.Runtime.xml",
+        "ref/netcore50/fr/System.Dynamic.Runtime.xml",
+        "ref/netcore50/it/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ja/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ko/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ru/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/System.Dynamic.Runtime.dll",
+        "ref/netstandard1.0/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/de/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/es/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/it/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/System.Dynamic.Runtime.dll",
+        "ref/netstandard1.3/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/de/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/es/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/it/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Dynamic.Runtime.dll",
+        "system.dynamic.runtime.4.0.11.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
       ]
     },
     "System.Globalization/4.3.0": {
@@ -8174,6 +8646,40 @@
         "system.runtime.interopservices.nuspec"
       ]
     },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+      "sha512": "hWPhJxc453RCa8Z29O91EmfGeZIHX1ZH2A8L6lYQVSaKzku2DfArSfMEb1/MYYzPQRJZeu0c9dmYeJKxW5Fgng==",
+      "type": "package",
+      "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/win8/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/wpa81/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
+      ]
+    },
     "System.Runtime.Numerics/4.0.1": {
       "sha512": "+XbKFuzdmLP3d1o9pdHu2nxjNr2OEPqGzKeegPLCUMM71a0t50A/rOcIRmGs9wR7a8KuHX6hYs/7/TymIGLNqg==",
       "type": "package",
@@ -9907,6 +10413,21 @@
       "path": "../AccountMangement.Infrastructure.EFCore/AccountMangement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../AccountMangement.Infrastructure.EFCore/AccountMangement.Infrastructure.EFCore.csproj"
     },
+    "A_Test.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../A_Test.Configuration/A_Test.Configuration.csproj",
+      "msbuildProject": "../A_Test.Configuration/A_Test.Configuration.csproj"
+    },
+    "A_Test.Domain/1.0.0": {
+      "type": "project",
+      "path": "../A_Test.Domain/A_Test.Domain.csproj",
+      "msbuildProject": "../A_Test.Domain/A_Test.Domain.csproj"
+    },
+    "A_Test.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../A_Test.Infrastructure.EFCore/A_Test.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../A_Test.Infrastructure.EFCore/A_Test.Infrastructure.EFCore.csproj"
+    },
     "BlogManagement.Application/1.0.0": {
       "type": "project",
       "path": "../BlogManagement.Application/BlogManagement.Application.csproj",
@@ -10007,6 +10528,11 @@
       "path": "../InventoryManagement.Infrastructure.EFCore/InventoryManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../InventoryManagement.Infrastructure.EFCore/InventoryManagement.Infrastructure.EFCore.csproj"
     },
+    "InventoryManagement.Presentation.Api/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Presentation.Api/InventoryManagement.Presentation.Api.csproj",
+      "msbuildProject": "../InventoryManagement.Presentation.Api/InventoryManagement.Presentation.Api.csproj"
+    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application/ShopManagement.Application.csproj",
@@ -10031,18 +10557,26 @@
       "type": "project",
       "path": "../ShopManagement.Infrastructure.EFCore/ShopManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../ShopManagement.Infrastructure.EFCore/ShopManagement.Infrastructure.EFCore.csproj"
+    },
+    "ShopManagement.Presentation.Api/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Presentation.Api/ShopManagement.Presentation.Api.csproj",
+      "msbuildProject": "../ShopManagement.Presentation.Api/ShopManagement.Presentation.Api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "A_Test.Configuration >= 1.0.0",
       "AccountManagement.Configuration >= 1.0.0",
       "BlogManagement.Infrastructure.Configuration >= 1.0.0",
       "CommentManagement.Infrastructure.Configuration >= 1.0.0",
       "DiscountManagement.Configuration >= 1.0.0",
       "InventoryManagement.Infrastructure.Configuration >= 1.0.0",
+      "InventoryManagement.Presentation.Api >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "ShopManagement.Configuration >= 1.0.0"
+      "ShopManagement.Configuration >= 1.0.0",
+      "ShopManagement.Presentation.Api >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10051,11 +10585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-      "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\obj\\",
+      "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10072,23 +10606,32 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\A_Test.Configuration\\A_Test.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\A_Test.Configuration\\A_Test.Configuration.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            },
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
+            },
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+            },
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj"
             }
           }
         }
@@ -10132,7 +10675,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {}
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {}
   },
   "projects": {
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,18 +92,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "projectName": "InventoryManagement.Application.Contracts",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,11 +120,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -153,18 +153,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
         "projectName": "InventoryManagement.Application",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -181,11 +181,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -214,18 +214,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,11 +242,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -275,18 +275,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
         "projectName": "InventoryManagement.Infrastructure.Configuration",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -303,17 +303,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -348,18 +348,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "projectName": "InventoryManagement.Infrastructure.EFCore",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -376,11 +376,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -425,18 +425,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -453,8 +453,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -489,18 +489,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -517,11 +517,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -550,18 +550,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -578,8 +578,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -630,7 +630,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

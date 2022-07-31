@@ -10,3 +10,15 @@ D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
 D:\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+C:\C#_programming\C#_web_Projects\MVC_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb

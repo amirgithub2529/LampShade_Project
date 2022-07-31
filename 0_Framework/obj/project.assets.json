@@ -6097,11 +6097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+      "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
       "projectName": "0_Framework",
-      "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+      "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
       "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-      "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
+      "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6182,7 +6182,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },

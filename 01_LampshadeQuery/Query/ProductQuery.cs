@@ -95,8 +95,15 @@ namespace _01_LampshadeQuery.Query
                     Id = x.Id,
                     Message = x.Message,
                     Name = x.Name,
+                    ParentId = x.ParentId,
                     CreationDate = x.CreationDate.ToFarsi()
                 }).OrderByDescending(x => x.Id).ToList();
+
+            foreach (var comment in product.Comments)
+            {
+                if (comment.ParentId > 0)
+                    comment.parentName = product.Comments.FirstOrDefault(x => x.Id == comment.ParentId)?.Name;
+            }
 
             return product;
         }

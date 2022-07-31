@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x7nLASsxg+W/Tg5UIT6jB2oM5D71iGLQh8mb+8aAFmV1ZZn392uhH/tuLy8rkbz/AgR02V6n731ATE+tOvCUjw==",
+  "dgSpecHash": "V0yASiF4JYUjdAijzW25jxEQgkech7ezEbjKvRCnpvNPcwQ+KEdY90MBd4RZ8F/yjvIbmkrWXfWhQ6O2LxiTug==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

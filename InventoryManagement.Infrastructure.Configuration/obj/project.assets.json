@@ -7798,11 +7798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
       "projectName": "InventoryManagement.Infrastructure.Configuration",
-      "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
       "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-      "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\obj\\",
+      "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7819,17 +7819,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+            "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -7864,7 +7864,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },

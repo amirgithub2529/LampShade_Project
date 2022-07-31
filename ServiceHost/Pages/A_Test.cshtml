@@ -1,0 +1,33 @@
+﻿@page
+@model ServiceHost.Pages.A_TestModel
+@{
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>نام</th>
+                        <th>فامیل</th>
+                        <th>سن</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var person in Model.informations)
+                    {
+                        <tr>
+                            <td>@person.Id</td>
+                            <td>@person.Name</td>
+                            <td>@person.Family</td>
+                            <td>@person.Age</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

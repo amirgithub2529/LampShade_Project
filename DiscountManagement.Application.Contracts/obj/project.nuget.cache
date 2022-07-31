@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2R3ySNNsK48tKnNwlD4aXKVYipLKtI7uYRy7ogeIgkp0evo7yzS6RNYLwFh2xXY0oYalYz0WpAhgX4etYgNW1g==",
+  "dgSpecHash": "G1D9N237a3WTWESa5GpAaAPOYXLbg05ysX6zgbxmnbvnivrT8elfLY38U47OaYufVA7lv8yMfG2VruZCL1NT6w==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

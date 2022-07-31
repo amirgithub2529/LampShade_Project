@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ep+oVL3itquiSz0NWEi5A7uUTIvvb5UiARTfXpyaR644dy4ZJxdpxuaH6apqWgI+r02slG8wGAFqAB+2KE3geQ==",
+  "dgSpecHash": "Nkn0JajAq5zQuII408v0DtroWXhYPOLB8EZ1iVmygS7IaQpzDyImC3xOhKgH+jF3CF6wqJsAuRJxOkC0+gZl4w==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TMxykcoWJlTc3E1LTACgMipGjs5PdfpVmoyoRqDU9nZB6KjtSeljWQBbjHjKnQuM36gdNfwqZbdo4rjTs6mlAg==",
+  "dgSpecHash": "CrJWMczm8xXdBfAKpvXfFNDcw9pcR/7NZhWmp4F7OMcxQvKpoUVxjY8BnKBngEpDLsfEnqw2FLsQF7dLJ09oEQ==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

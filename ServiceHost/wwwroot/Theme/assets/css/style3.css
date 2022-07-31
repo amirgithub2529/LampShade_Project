@@ -6374,6 +6374,11 @@ span.required {
 	line-height: 20px;
 }
 
+.blog-single-post-container .post-content img {
+    max-width: 100%;
+	height: auto;
+}
+
 .blog-single-post-container .post-content blockquote {
 	font-size: 12px;
 	font-style: italic;

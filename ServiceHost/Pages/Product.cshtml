@@ -184,11 +184,11 @@
                                         <div class="product-actions">
                                             <div class="quantity-selection">
                                                 <label>تعداد</label>
-                                                <input type="number" value="1" min="1">
+                                                <input type="number" value="1" min="1" id="productCount">
                                             </div>
 
                                             <div class="product-buttons">
-                                                <a class="cart-btn" href="#">
+                                                <a class="cart-btn" onclick="addToCart('@Model.Product.Id', '@Model.Product.Name', '@Model.Product.Price', '@Model.Product.Picture')">
                                                     <i class="ion-bag"></i> افزودن به سبد خرید
                                                 </a>
                                             </div>
@@ -253,55 +253,55 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="review" role="tabpanel"
+                                            <div class="tab-pane fade" id="review1" role="tabpanel"
                                                  aria-labelledby="review-tab">
                                                 <div class="product-rating-wrap">
                                                     @*<div class="pro-avg-rating">
-                                                        <h4>4.5 <span>(Overall)</span></h4>
-                                                        <span>Based on 9 Comments</span>
-                                                    </div>
-                                                    <div class="rating-list">
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <span>(5)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(3)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(1)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                    </div>*@
+                    <h4>4.5 <span>(Overall)</span></h4>
+                    <span>Based on 9 Comments</span>
+                </div>
+                <div class="rating-list">
+                    <div class="sin-list float-right">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(5)</span>
+                    </div>
+                    <div class="sin-list float-right">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(3)</span>
+                    </div>
+                    <div class="sin-list float-right">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(1)</span>
+                    </div>
+                    <div class="sin-list float-right">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(0)</span>
+                    </div>
+                    <div class="sin-list float-right">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(0)</span>
+                    </div>
+                </div>*@
                                                     <div class="ratings-wrapper">
                                                         @foreach (var comment in Model.Product.Comments)
                                                         {
@@ -309,13 +309,13 @@
                                                                 <div class="rating-author">
                                                                     <h3>@comment.Name | @comment.CreationDate</h3>
                                                                     @*<div class="rating-star">
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <span>(5)</span>
-                                                                    </div>*@
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span>(5)</span>
+                                </div>*@
                                                                 </div>
                                                                 <p>@comment.Message</p>
                                                             </div>
@@ -327,15 +327,15 @@
                                                         <form method="post">
                                                             <div class="rating-form row">
                                                                 @*<div class="col-12 mb-15">
-            <h5>Rating:</h5>
-            <div class="rating-star fix">
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-        </div>*@
+                                <h5>Rating:</h5>
+                                <div class="rating-star fix">
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>*@
                                                                 <div class="col-md-6 col-12 form-group">
                                                                     <label for="name">نام:</label>
                                                                     <input id="name" placeholder="مثال : علی علوی" name="name" type="text">
@@ -362,6 +362,106 @@
 
                                                 <!--=======  End of review content  =======-->
                                             </div>
+                                            <div class="comment-section tab-pane fade" id="review">
+                                                <h3 class="comment-counter">نظرات (@Model.Product.Comments.Count)</h3>
+                                                <div class="comment-container">
+                                                    @foreach (var comment in Model.Product.Comments)
+                                                    {
+                                                        @if (comment.ParentId > 0)
+                                                        {
+                                                            <div class="single-comment" id="comment-@comment.Id" style="background-color: #c4c4c4">
+                                                                <span class="reply-btn">
+                                                                    <a href="#postComment" onclick='$("#commentParentId").val(id)'>پاسخ</a>
+                                                                </span>
+                                                                <div class="image">
+                                                                    <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="user">
+                                                                        @comment.Name <span class="comment-time">
+                                                                            @comment.CreationDate
+                                                                        </span>
+                                                                    </h3>
+                                                                    <p>
+                                                                        <span>در پاسخ به: </span><a href="#comment-@comment.ParentId">@comment.parentName</a>
+                                                                    </p>
+                                                                    <p class="comment-text">@comment.Message</p>
+                                                                </div>
+                                                            </div>
+                                                        }
+                                                        else
+                                                        {
+                                                            <div class="single-comment" id="comment-@comment.Id">
+                                                                <span class="reply-btn">
+                                                                    <a href="#postComment" onclick='$("#commentParentId").val(id)' >پاسخ</a>
+                                                                </span>
+                                                                <div class="image">
+                                                                    <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="user">
+                                                                        @comment.Name <span class="comment-time">
+                                                                            @comment.CreationDate
+                                                                        </span>
+                                                                    </h3>
+                                                                    <p class="comment-text">@comment.Message</p>
+                                                                </div>
+                                                            </div>
+                                                        }
+
+                                                    }
+                                                </div>
+
+                                                <div class="comment-form-container">
+                                                    <h3 class="comment-form-title">نظر خود را با ما به اشتراک بگذارید</h3>
+                                                    <p>
+                                                        ایمیل وارده شده توسط شما به صورت محرمانه است و به دیگران نمایش داده نخواهد شد.
+                                                    </p>
+                                                    <div class="comment-form" id="postComment">
+                                                        <form method="post">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="form-group">
+                                                                        <label>نظر شما</label>
+                                                                        <textarea name="message" id="messaeg" placeholder="نظر خود را بنویسید..."></textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12" id="ReplyAlert" style="display:none">
+                                                                    <div class="alert alert-info">
+                                                                        <strong>پاسخ شما به :</strong><h4></h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4">
+                                                                    <div class="form-group">
+                                                                        <label>نام <span class="required">*</span></label>
+                                                                        <input type="text" name="name" placeholder="مثال: علی علوی">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4">
+                                                                    <div class="form-group">
+                                                                        <label>ایمیل <span class="required">*</span></label>
+                                                                        <input type="text" name="email" placeholder="مثال: contact@gmail.com">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4">
+                                                                    <div class="form-group">
+                                                                        <label>وبسایت</label>
+                                                                        <input type="text" name="website" placeholder="مثال: http://www.google.com">
+                                                                    </div>
+                                                                </div>
+                                                                <input type="hidden" name="ownerRecordId" value="@Model.Product.Id" />
+                                                                <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
+                                                                <input type="hidden" name="parentId" id="commentParentId" value="" />
+                                                                <div class="col-lg-12">
+                                                                    <button type="submit" class="comment-btn" name="submit">
+                                                                        ارسال
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -380,3 +480,4 @@
     </div>
 </div>
 <!--====================  End of page content area  ====================-->
+

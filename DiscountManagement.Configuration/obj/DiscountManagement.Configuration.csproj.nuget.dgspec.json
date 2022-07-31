@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {}
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {}
   },
   "projects": {
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,18 +92,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "projectName": "DiscountManagement.Application.Contracts",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,11 +120,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -153,18 +153,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
         "projectName": "DiscountManagement.Application",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -181,11 +181,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               }
             }
           }
@@ -214,18 +214,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
         "projectName": "DiscountManagement.Configuration",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,14 +242,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -264,6 +264,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -284,18 +298,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -312,11 +326,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -345,18 +359,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.Infrastructure.EFCore",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -373,11 +387,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -422,18 +436,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -450,8 +464,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -486,18 +500,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,11 +528,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -547,18 +561,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Amirhosein\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirhosein\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -575,8 +589,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -627,7 +641,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

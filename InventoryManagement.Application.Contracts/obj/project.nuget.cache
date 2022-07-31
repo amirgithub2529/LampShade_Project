@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZcRRgvcWShzWIsEeS8zJaLM1HExA8UQcMqQPsifCXqcd7bae4TQkTMcyVCKH279WVN3L5PE4nhLDfa+sQ5XZg==",
+  "dgSpecHash": "bytj6Ty7xXyK/gnBPzyOZAsWr2lRBV+k8+TFJGoKgnT9/r28Eq/TNjz49XyPW7irRMfpBzarOMggdKm3kFSHLQ==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

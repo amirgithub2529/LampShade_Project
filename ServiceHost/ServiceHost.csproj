@@ -34,11 +34,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
+    <ProjectReference Include="..\A_Test.Configuration\A_Test.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\CommentManagement.Infrastructure.Configuration\CommentManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
+    <ProjectReference Include="..\ShopManagement.Presentation.Api\ShopManagement.Presentation.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -224,7 +227,7 @@
     <None Include="wwwroot\AdminTheme\images\big\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\small\Thumbs.db" />
     <None Include="wwwroot\AdminTheme\images\users\Thumbs.db" />
-    <None Include="wwwroot\Theme\assets\css\style2.css" />
+    <None Include="wwwroot\Theme\assets\css\style3.css" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
@@ -236,6 +239,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\ProductPictures\slides\" />
     <Folder Include="wwwroot\ProductPictures\دکوری\" />
   </ItemGroup>

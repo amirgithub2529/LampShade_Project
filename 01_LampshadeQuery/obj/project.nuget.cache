@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3VJ//22Roeydh1xh+PGnFv2HRxyWdHGNoXedwxBhWrPaoReWOQtaABKRAqn96eBZq13/8MCTXaHYAluH0eqo2A==",
+  "dgSpecHash": "Cm4YWMUstFEJOiKl3ea5RtIQyu0n4cQ4PUfgggncok2CiBqbLaV952wokWf4LaEZ7hF/k2lQy1f6AL4hL5JuJQ==",
   "success": true,
-  "projectFilePath": "D:\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+  "projectFilePath": "C:\\C#_programming\\C#_web_Projects\\MVC_Final_Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amirhosein\\.nuget\\packages\\mailkit\\1.10.0\\mailkit.1.10.0.nupkg.sha512",
     "C:\\Users\\Amirhosein\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -3,11 +3,8 @@ using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.RoleAgg;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccountMangement.Infrastructure.EFCore.Repository
 {
@@ -25,13 +22,25 @@ namespace AccountMangement.Infrastructure.EFCore.Repository
 
         public EditRole GetDetails(long id)
         {
-            return _accountContext.Roles.Select(x => new EditRole
+            //return _accountContext.Roles.Select(x => new EditRole
+            //{
+            //    Id = x.Id,
+            //    Name = x.Name,
+            //    MappedPermissions = MapPerissions(x.Permissions)
+            //}).AsNoTracking()
+            //.FirstOrDefault(x => x.Id == id);
+
+            var role =  _accountContext.Roles.Select(x => new EditRole
             {
                 Id = x.Id,
                 Name = x.Name,
                 MappedPermissions = MapPerissions(x.Permissions)
             }).AsNoTracking()
             .FirstOrDefault(x => x.Id == id);
+
+            role.Permissions = role.MappedPermissions.Select(x => x.Code).ToList();
+
+            return role;
         }
 
 

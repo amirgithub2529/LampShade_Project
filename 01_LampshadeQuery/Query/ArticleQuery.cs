@@ -22,6 +22,8 @@ namespace _01_LampshadeQuery.Query
             _commentContext = commentContext;
         }
 
+
+
         public ArticleQueryModel GetArticleDetails(string slug)
         {
             var article = _context.Articles
@@ -48,7 +50,6 @@ namespace _01_LampshadeQuery.Query
             if (!string.IsNullOrWhiteSpace(article.Keywords))
                 article.KeywordList = article.Keywords.Split(",").ToList();
 
-
             var comments = _commentContext.Comments
                 .Where(x => !x.IsCanceled)
                 .Where(x => x.IsConfirmed)
@@ -74,6 +75,10 @@ namespace _01_LampshadeQuery.Query
             return article;
         }
 
+
+
+
+
         public List<ArticleQueryModel> LatestArticles()
         {
             return _context.Articles
@@ -90,5 +95,7 @@ namespace _01_LampshadeQuery.Query
                     ShortDescription = x.ShortDescription,
                 }).ToList();
         }
+
+
     }
 }
